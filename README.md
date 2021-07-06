@@ -1,6 +1,6 @@
 运行指令放在cmd.sh里面可以参考
-1.roscore
-2.rosrun image_transport republish compressed in:=/camera/left/image_raw raw out:=/camera/left/image_raw
+1.roscore /n
+2.rosrun image_transport republish compressed in:=/camera/left/image_raw raw out:=/camera/left/image_raw /n
 3.rosbag play rosbag --clock 暂停
 4.rosparam set use_sim_time true
 5.python cam_lidar_fusion.py
