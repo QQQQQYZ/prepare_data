@@ -1,4 +1,4 @@
-运行指令放在cmd.sh里面可以参考
+运行指令放在cmd.sh里面可以参考  
 1.roscore  
 2.rosrun image_transport republish compressed in:=/camera/left/image_raw raw out:=/camera/left/image_raw   
 3.rosbag play rosbag --clock 暂停  
